@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="UOSM-pressure-sensor"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UOSM-pressure-sensor.elf">
+				<Option output="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/UOSM-pressure-sensor.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32L432xx"/>
+					<Add directory="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Core/Inc"/>
+					<Add directory="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc"/>
+					<Add directory="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Device/ST/STM32L4xx/Include"/>
+					<Add directory="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 UOSM-pressure-sensor.elf"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UOSM-pressure-sensor.elf/fast">
+				<Option output="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/UOSM-pressure-sensor.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32L432xx"/>
+					<Add directory="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Core/Inc"/>
+					<Add directory="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc"/>
+					<Add directory="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Device/ST/STM32L4xx/Include"/>
+					<Add directory="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 UOSM-pressure-sensor.elf/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Core/Inc/main.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Core/Inc/stm32l4xx_hal_conf.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Core/Inc/stm32l4xx_it.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Core/Src/main.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Core/Src/stm32l4xx_hal_msp.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Core/Src/stm32l4xx_it.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Core/Src/syscalls.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Core/Src/sysmem.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Core/Src/system_stm32l4xx.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Core/Startup/startup_stm32l432kcux.s">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l432xx.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Device/ST/STM32L4xx/LICENSE.txt">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Device/ST/STM32L4xx/License.md">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/core_armv81mml.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/core_cm35p.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/CMSIS/LICENSE.txt">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma_ex.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_cortex.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_crs.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_dma.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_dmamux.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_exti.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/LICENSE.txt">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/STM32L432KCUX_FLASH.ld">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/trist/Documents/Projects/UOSM/UOSM-pressure-sensor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

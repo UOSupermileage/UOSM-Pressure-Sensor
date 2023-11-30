@@ -23,6 +23,6 @@ CMake Deprecation Warning:
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Minimal optimization, debug info included
--- Configuring done (5.6s)
+-- Configuring done (4.1s)
 -- Generating done (0.1s)
 -- Build files have been written to: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug

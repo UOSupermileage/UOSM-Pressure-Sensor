@@ -48,7 +48,9 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(${includes})
+include_directories(
+    ${includes}
+    ${CMAKE_SOURCE_DIR}/Core/Tasks)
 
 add_definitions(${defines})
 

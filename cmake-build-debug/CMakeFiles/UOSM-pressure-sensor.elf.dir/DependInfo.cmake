@@ -26,12 +26,18 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"
   "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/CMSIS/Device/ST/STM32L4xx/Include"
   "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/CMSIS/Include"
+  "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/include"
+  "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
+  "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+  "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Tasks"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Src/freertos.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/freertos.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/freertos.c.obj.d"
   "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Src/main.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/main.c.obj.d"
   "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Src/stm32l4xx_hal_msp.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj.d"
+  "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Src/stm32l4xx_hal_timebase_tim.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/stm32l4xx_hal_timebase_tim.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/stm32l4xx_hal_timebase_tim.c.obj.d"
   "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Src/stm32l4xx_it.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/stm32l4xx_it.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/stm32l4xx_it.c.obj.d"
   "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Src/syscalls.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/syscalls.c.obj.d"
   "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Src/sysmem.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/sysmem.c.obj.d"
@@ -56,6 +62,17 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj.d"
   "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj.d"
   "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj.d"
+  "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj.d"
+  "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/croutine.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj.d"
+  "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj.d"
+  "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/list.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj.d"
+  "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj.d"
+  "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj.d"
+  "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/queue.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj.d"
+  "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj.d"
+  "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/tasks.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj.d"
+  "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/timers.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj.d"
+  "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Tasks/InternalCommsTask.cpp" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

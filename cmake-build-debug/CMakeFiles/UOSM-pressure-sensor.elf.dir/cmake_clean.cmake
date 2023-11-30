@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/freertos.c.obj"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/freertos.c.obj.d"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/main.c.obj"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/main.c.obj.d"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj.d"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/stm32l4xx_hal_timebase_tim.c.obj"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/stm32l4xx_hal_timebase_tim.c.obj.d"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/stm32l4xx_it.c.obj"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/stm32l4xx_it.c.obj.d"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/syscalls.c.obj"
@@ -12,6 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/system_stm32l4xx.c.obj"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/system_stm32l4xx.c.obj.d"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Startup/startup_stm32l432kcux.s.obj"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.obj"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.obj.d"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/TaskManager.c.obj"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/TaskManager.c.obj.d"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
@@ -52,12 +58,32 @@ file(REMOVE_RECURSE
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj.d"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj.d"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj.d"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj.d"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj.d"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj.d"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj.d"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj.d"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj.d"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj.d"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj.d"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj.d"
   "UOSM-pressure-sensor.elf"
   "UOSM-pressure-sensor.elf.manifest"
   "UOSM-pressure-sensor.elf.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang ASM C)
+foreach(lang ASM C CXX)
   include(CMakeFiles/UOSM-pressure-sensor.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

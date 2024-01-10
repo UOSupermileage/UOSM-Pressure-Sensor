@@ -5,5 +5,4 @@
 #include "TaskManager.h"
 
 void RunTaskManager(void) {
-
 }

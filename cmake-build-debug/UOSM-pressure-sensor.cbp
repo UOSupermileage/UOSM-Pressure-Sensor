@@ -149,6 +149,12 @@
 		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Tasks/InternalCommsTask.h">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Tasks/SensorCommsTask.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Tasks/SensorCommsTask.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Tasks/TaskManager.c">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>

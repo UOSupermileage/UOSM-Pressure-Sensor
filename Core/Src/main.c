@@ -56,6 +56,9 @@ const osThreadAttr_t defaultTask_attributes = {
 };
 /* USER CODE BEGIN PV */
 
+uint8_t i2c1_rx_buffer[128];
+uint8_t i2c1_tx_buffer[128];
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/

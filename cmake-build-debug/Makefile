@@ -352,6 +352,30 @@ Core/Tasks/InternalCommsTask.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.s
 .PHONY : Core/Tasks/InternalCommsTask.cpp.s
 
+Core/Tasks/SensorCommsTask.obj: Core/Tasks/SensorCommsTask.c.obj
+.PHONY : Core/Tasks/SensorCommsTask.obj
+
+# target to build an object file
+Core/Tasks/SensorCommsTask.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/SensorCommsTask.c.obj
+.PHONY : Core/Tasks/SensorCommsTask.c.obj
+
+Core/Tasks/SensorCommsTask.i: Core/Tasks/SensorCommsTask.c.i
+.PHONY : Core/Tasks/SensorCommsTask.i
+
+# target to preprocess a source file
+Core/Tasks/SensorCommsTask.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/SensorCommsTask.c.i
+.PHONY : Core/Tasks/SensorCommsTask.c.i
+
+Core/Tasks/SensorCommsTask.s: Core/Tasks/SensorCommsTask.c.s
+.PHONY : Core/Tasks/SensorCommsTask.s
+
+# target to generate assembly for a file
+Core/Tasks/SensorCommsTask.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/SensorCommsTask.c.s
+.PHONY : Core/Tasks/SensorCommsTask.c.s
+
 Core/Tasks/TaskManager.obj: Core/Tasks/TaskManager.c.obj
 .PHONY : Core/Tasks/TaskManager.obj
 
@@ -1109,6 +1133,9 @@ help:
 	@echo ... Core/Tasks/InternalCommsTask.obj
 	@echo ... Core/Tasks/InternalCommsTask.i
 	@echo ... Core/Tasks/InternalCommsTask.s
+	@echo ... Core/Tasks/SensorCommsTask.obj
+	@echo ... Core/Tasks/SensorCommsTask.i
+	@echo ... Core/Tasks/SensorCommsTask.s
 	@echo ... Core/Tasks/TaskManager.obj
 	@echo ... Core/Tasks/TaskManager.i
 	@echo ... Core/Tasks/TaskManager.s

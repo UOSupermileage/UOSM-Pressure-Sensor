@@ -11,6 +11,4 @@
 void InitSensorCommsTask(void);
 void SensorCommsTask(void *argument);
 
-osThreadId_t SensorCommsTaskHandle;
-
 #endif //SENSORCOMMSTASK_H

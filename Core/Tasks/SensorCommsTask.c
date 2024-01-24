@@ -5,8 +5,11 @@
 #include "SensorCommsTask.h"
 
 // STM headers
-#include "cmsis_os2.h"
-#include "stm32l4xx_hal_i2c.h"
+#include <ApplicationTypes.h>
+
+#include "PressureDriver.h"
+
+osThreadId_t SensorCommsTaskHandle;
 
 const osThreadAttr_t SensorCommsTask_attributes = {
         .name = "SensorCommsTask",
@@ -19,8 +22,10 @@ void InitSensorCommsTask(void) {
 }
 
 void SensorCommsTask(void *argument) {
+    InitPressure();
+    DebugPrint("Starting sensor task");
     while (1) {
-        // Read from the I2C1 RX buffer
-        HAL_I2C_Master_Receive(&, 0x00, i2c1_rx_buffer, 128, 1000);
+        PressureCallback();
+        osDelay(100);
     }
 }

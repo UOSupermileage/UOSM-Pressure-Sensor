@@ -4,5 +4,8 @@
 
 #include "TaskManager.h"
 
+#include "SensorCommsTask.h"
+
 void RunTaskManager(void) {
+    InitSensorCommsTask();
 }

@@ -19,9 +19,9 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_STANDARD 11)
 
 #Uncomment for hardware floating point
-#add_compile_definitions(ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING)
-#add_compile_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
-#add_link_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
+add_compile_definitions(ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING)
+add_compile_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
+add_link_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
 
 #Uncomment for software floating point
 #add_compile_options(-mfloat-abi=soft)
@@ -51,11 +51,17 @@ endif ()
 
 include_directories(
     Core/Inc Drivers/STM32L4xx_HAL_Driver/Inc Drivers/STM32L4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32L4xx/Include Drivers/CMSIS/Include Middlewares/Third_Party/FreeRTOS/Source/include Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F
-    ${CMAKE_SOURCE_DIR}/Core/Tasks)
+    ${CMAKE_SOURCE_DIR}/Core/Tasks
+    ${CMAKE_SOURCE_DIR}/Core/UserDrivers
+    ${CMAKE_SOURCE_DIR}/UOSM-Core/Drivers
+    ${CMAKE_SOURCE_DIR}/UOSM-Core/Inc
+    ${CMAKE_SOURCE_DIR}/UOSM-Core/Modules
+    ${CMAKE_SOURCE_DIR}/UOSM-Core/Utils)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32L432xx)
 
-file(GLOB_RECURSE SOURCES "Core/*.*" "Middlewares/*.*" "Drivers/*.*")
+file(GLOB_RECURSE SOURCES "Core/*.*" "Middlewares/*.*" "Drivers/*.*" "UOSM-Core/*.*" "Core/*.*" "Core/Tasks/*.*" "Core/UserDrivers/*.*" "UOSM-Core/Drivers/*.*" "UOSM-Core/Modules/*.*" "UOSM-Core/Utils/*.*"
+)
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32L432KCUX_FLASH.ld)
 

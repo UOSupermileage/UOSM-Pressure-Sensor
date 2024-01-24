@@ -328,29 +328,29 @@ Core/Startup/startup_stm32l432kcux.s.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Startup/startup_stm32l432kcux.s.obj
 .PHONY : Core/Startup/startup_stm32l432kcux.s.obj
 
-Core/Tasks/InternalCommsTask.obj: Core/Tasks/InternalCommsTask.cpp.obj
+Core/Tasks/InternalCommsTask.obj: Core/Tasks/InternalCommsTask.c.obj
 .PHONY : Core/Tasks/InternalCommsTask.obj
 
 # target to build an object file
-Core/Tasks/InternalCommsTask.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.obj
-.PHONY : Core/Tasks/InternalCommsTask.cpp.obj
+Core/Tasks/InternalCommsTask.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.c.obj
+.PHONY : Core/Tasks/InternalCommsTask.c.obj
 
-Core/Tasks/InternalCommsTask.i: Core/Tasks/InternalCommsTask.cpp.i
+Core/Tasks/InternalCommsTask.i: Core/Tasks/InternalCommsTask.c.i
 .PHONY : Core/Tasks/InternalCommsTask.i
 
 # target to preprocess a source file
-Core/Tasks/InternalCommsTask.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.i
-.PHONY : Core/Tasks/InternalCommsTask.cpp.i
+Core/Tasks/InternalCommsTask.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.c.i
+.PHONY : Core/Tasks/InternalCommsTask.c.i
 
-Core/Tasks/InternalCommsTask.s: Core/Tasks/InternalCommsTask.cpp.s
+Core/Tasks/InternalCommsTask.s: Core/Tasks/InternalCommsTask.c.s
 .PHONY : Core/Tasks/InternalCommsTask.s
 
 # target to generate assembly for a file
-Core/Tasks/InternalCommsTask.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.s
-.PHONY : Core/Tasks/InternalCommsTask.cpp.s
+Core/Tasks/InternalCommsTask.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.c.s
+.PHONY : Core/Tasks/InternalCommsTask.c.s
 
 Core/Tasks/SensorCommsTask.obj: Core/Tasks/SensorCommsTask.c.obj
 .PHONY : Core/Tasks/SensorCommsTask.obj
@@ -399,6 +399,30 @@ Core/Tasks/TaskManager.s: Core/Tasks/TaskManager.c.s
 Core/Tasks/TaskManager.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/TaskManager.c.s
 .PHONY : Core/Tasks/TaskManager.c.s
+
+Core/UserDrivers/PressureDriver.obj: Core/UserDrivers/PressureDriver.c.obj
+.PHONY : Core/UserDrivers/PressureDriver.obj
+
+# target to build an object file
+Core/UserDrivers/PressureDriver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/PressureDriver.c.obj
+.PHONY : Core/UserDrivers/PressureDriver.c.obj
+
+Core/UserDrivers/PressureDriver.i: Core/UserDrivers/PressureDriver.c.i
+.PHONY : Core/UserDrivers/PressureDriver.i
+
+# target to preprocess a source file
+Core/UserDrivers/PressureDriver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/PressureDriver.c.i
+.PHONY : Core/UserDrivers/PressureDriver.c.i
+
+Core/UserDrivers/PressureDriver.s: Core/UserDrivers/PressureDriver.c.s
+.PHONY : Core/UserDrivers/PressureDriver.s
+
+# target to generate assembly for a file
+Core/UserDrivers/PressureDriver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/PressureDriver.c.s
+.PHONY : Core/UserDrivers/PressureDriver.c.s
 
 Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.obj: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
 .PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.obj
@@ -856,6 +880,54 @@ Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.s
 .PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.s
 
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.obj: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.obj
+
+# target to build an object file
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.i: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.i
+
+# target to preprocess a source file
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i
+
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.s: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.s
+
+# target to generate assembly for a file
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s
+
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.obj: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.obj
+
+# target to build an object file
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
+
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.i: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.i
+
+# target to preprocess a source file
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i
+
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.s: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s
+.PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s
+
 Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.obj: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.obj
 
@@ -1096,6 +1168,150 @@ Middlewares/Third_Party/FreeRTOS/Source/timers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 
+UOSM-Core/Drivers/CANDriver.obj: UOSM-Core/Drivers/CANDriver.c.obj
+.PHONY : UOSM-Core/Drivers/CANDriver.obj
+
+# target to build an object file
+UOSM-Core/Drivers/CANDriver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/CANDriver.c.obj
+.PHONY : UOSM-Core/Drivers/CANDriver.c.obj
+
+UOSM-Core/Drivers/CANDriver.i: UOSM-Core/Drivers/CANDriver.c.i
+.PHONY : UOSM-Core/Drivers/CANDriver.i
+
+# target to preprocess a source file
+UOSM-Core/Drivers/CANDriver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/CANDriver.c.i
+.PHONY : UOSM-Core/Drivers/CANDriver.c.i
+
+UOSM-Core/Drivers/CANDriver.s: UOSM-Core/Drivers/CANDriver.c.s
+.PHONY : UOSM-Core/Drivers/CANDriver.s
+
+# target to generate assembly for a file
+UOSM-Core/Drivers/CANDriver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/CANDriver.c.s
+.PHONY : UOSM-Core/Drivers/CANDriver.c.s
+
+UOSM-Core/Drivers/MCP2515.obj: UOSM-Core/Drivers/MCP2515.c.obj
+.PHONY : UOSM-Core/Drivers/MCP2515.obj
+
+# target to build an object file
+UOSM-Core/Drivers/MCP2515.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/MCP2515.c.obj
+.PHONY : UOSM-Core/Drivers/MCP2515.c.obj
+
+UOSM-Core/Drivers/MCP2515.i: UOSM-Core/Drivers/MCP2515.c.i
+.PHONY : UOSM-Core/Drivers/MCP2515.i
+
+# target to preprocess a source file
+UOSM-Core/Drivers/MCP2515.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/MCP2515.c.i
+.PHONY : UOSM-Core/Drivers/MCP2515.c.i
+
+UOSM-Core/Drivers/MCP2515.s: UOSM-Core/Drivers/MCP2515.c.s
+.PHONY : UOSM-Core/Drivers/MCP2515.s
+
+# target to generate assembly for a file
+UOSM-Core/Drivers/MCP2515.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/MCP2515.c.s
+.PHONY : UOSM-Core/Drivers/MCP2515.c.s
+
+UOSM-Core/Drivers/SerialDebugDriver.obj: UOSM-Core/Drivers/SerialDebugDriver.c.obj
+.PHONY : UOSM-Core/Drivers/SerialDebugDriver.obj
+
+# target to build an object file
+UOSM-Core/Drivers/SerialDebugDriver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/SerialDebugDriver.c.obj
+.PHONY : UOSM-Core/Drivers/SerialDebugDriver.c.obj
+
+UOSM-Core/Drivers/SerialDebugDriver.i: UOSM-Core/Drivers/SerialDebugDriver.c.i
+.PHONY : UOSM-Core/Drivers/SerialDebugDriver.i
+
+# target to preprocess a source file
+UOSM-Core/Drivers/SerialDebugDriver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/SerialDebugDriver.c.i
+.PHONY : UOSM-Core/Drivers/SerialDebugDriver.c.i
+
+UOSM-Core/Drivers/SerialDebugDriver.s: UOSM-Core/Drivers/SerialDebugDriver.c.s
+.PHONY : UOSM-Core/Drivers/SerialDebugDriver.s
+
+# target to generate assembly for a file
+UOSM-Core/Drivers/SerialDebugDriver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/SerialDebugDriver.c.s
+.PHONY : UOSM-Core/Drivers/SerialDebugDriver.c.s
+
+UOSM-Core/Modules/CANMessageLookUpModule.obj: UOSM-Core/Modules/CANMessageLookUpModule.c.obj
+.PHONY : UOSM-Core/Modules/CANMessageLookUpModule.obj
+
+# target to build an object file
+UOSM-Core/Modules/CANMessageLookUpModule.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/CANMessageLookUpModule.c.obj
+.PHONY : UOSM-Core/Modules/CANMessageLookUpModule.c.obj
+
+UOSM-Core/Modules/CANMessageLookUpModule.i: UOSM-Core/Modules/CANMessageLookUpModule.c.i
+.PHONY : UOSM-Core/Modules/CANMessageLookUpModule.i
+
+# target to preprocess a source file
+UOSM-Core/Modules/CANMessageLookUpModule.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/CANMessageLookUpModule.c.i
+.PHONY : UOSM-Core/Modules/CANMessageLookUpModule.c.i
+
+UOSM-Core/Modules/CANMessageLookUpModule.s: UOSM-Core/Modules/CANMessageLookUpModule.c.s
+.PHONY : UOSM-Core/Modules/CANMessageLookUpModule.s
+
+# target to generate assembly for a file
+UOSM-Core/Modules/CANMessageLookUpModule.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/CANMessageLookUpModule.c.s
+.PHONY : UOSM-Core/Modules/CANMessageLookUpModule.c.s
+
+UOSM-Core/Modules/InternalCommsModule.obj: UOSM-Core/Modules/InternalCommsModule.c.obj
+.PHONY : UOSM-Core/Modules/InternalCommsModule.obj
+
+# target to build an object file
+UOSM-Core/Modules/InternalCommsModule.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/InternalCommsModule.c.obj
+.PHONY : UOSM-Core/Modules/InternalCommsModule.c.obj
+
+UOSM-Core/Modules/InternalCommsModule.i: UOSM-Core/Modules/InternalCommsModule.c.i
+.PHONY : UOSM-Core/Modules/InternalCommsModule.i
+
+# target to preprocess a source file
+UOSM-Core/Modules/InternalCommsModule.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/InternalCommsModule.c.i
+.PHONY : UOSM-Core/Modules/InternalCommsModule.c.i
+
+UOSM-Core/Modules/InternalCommsModule.s: UOSM-Core/Modules/InternalCommsModule.c.s
+.PHONY : UOSM-Core/Modules/InternalCommsModule.s
+
+# target to generate assembly for a file
+UOSM-Core/Modules/InternalCommsModule.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/InternalCommsModule.c.s
+.PHONY : UOSM-Core/Modules/InternalCommsModule.c.s
+
+UOSM-Core/Utils/Identifiable.obj: UOSM-Core/Utils/Identifiable.cpp.obj
+.PHONY : UOSM-Core/Utils/Identifiable.obj
+
+# target to build an object file
+UOSM-Core/Utils/Identifiable.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Utils/Identifiable.cpp.obj
+.PHONY : UOSM-Core/Utils/Identifiable.cpp.obj
+
+UOSM-Core/Utils/Identifiable.i: UOSM-Core/Utils/Identifiable.cpp.i
+.PHONY : UOSM-Core/Utils/Identifiable.i
+
+# target to preprocess a source file
+UOSM-Core/Utils/Identifiable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Utils/Identifiable.cpp.i
+.PHONY : UOSM-Core/Utils/Identifiable.cpp.i
+
+UOSM-Core/Utils/Identifiable.s: UOSM-Core/Utils/Identifiable.cpp.s
+.PHONY : UOSM-Core/Utils/Identifiable.s
+
+# target to generate assembly for a file
+UOSM-Core/Utils/Identifiable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UOSM-pressure-sensor.elf.dir\build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Utils/Identifiable.cpp.s
+.PHONY : UOSM-Core/Utils/Identifiable.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1139,6 +1355,9 @@ help:
 	@echo ... Core/Tasks/TaskManager.obj
 	@echo ... Core/Tasks/TaskManager.i
 	@echo ... Core/Tasks/TaskManager.s
+	@echo ... Core/UserDrivers/PressureDriver.obj
+	@echo ... Core/UserDrivers/PressureDriver.i
+	@echo ... Core/UserDrivers/PressureDriver.s
 	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.obj
 	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.i
 	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.s
@@ -1196,6 +1415,12 @@ help:
 	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.obj
 	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.i
 	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.s
+	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.obj
+	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.i
+	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.s
+	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.obj
+	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.i
+	@echo ... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.s
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.s
@@ -1226,6 +1451,24 @@ help:
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.s
+	@echo ... UOSM-Core/Drivers/CANDriver.obj
+	@echo ... UOSM-Core/Drivers/CANDriver.i
+	@echo ... UOSM-Core/Drivers/CANDriver.s
+	@echo ... UOSM-Core/Drivers/MCP2515.obj
+	@echo ... UOSM-Core/Drivers/MCP2515.i
+	@echo ... UOSM-Core/Drivers/MCP2515.s
+	@echo ... UOSM-Core/Drivers/SerialDebugDriver.obj
+	@echo ... UOSM-Core/Drivers/SerialDebugDriver.i
+	@echo ... UOSM-Core/Drivers/SerialDebugDriver.s
+	@echo ... UOSM-Core/Modules/CANMessageLookUpModule.obj
+	@echo ... UOSM-Core/Modules/CANMessageLookUpModule.i
+	@echo ... UOSM-Core/Modules/CANMessageLookUpModule.s
+	@echo ... UOSM-Core/Modules/InternalCommsModule.obj
+	@echo ... UOSM-Core/Modules/InternalCommsModule.i
+	@echo ... UOSM-Core/Modules/InternalCommsModule.s
+	@echo ... UOSM-Core/Utils/Identifiable.obj
+	@echo ... UOSM-Core/Utils/Identifiable.i
+	@echo ... UOSM-Core/Utils/Identifiable.s
 .PHONY : help
 
 

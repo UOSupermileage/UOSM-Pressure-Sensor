@@ -193,24 +193,38 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Startup/startup_stm32l432kcux.s.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Startup/startup_stm32l432kcux.s.s"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Core\Startup\startup_stm32l432kcux.s -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\Startup\startup_stm32l432kcux.s.s
 
-CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
-CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Tasks/InternalCommsTask.cpp
-CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.obj"
-	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\Tasks\InternalCommsTask.cpp.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\Tasks\InternalCommsTask.cpp.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Core\Tasks\InternalCommsTask.cpp
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Tasks/InternalCommsTask.c
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\Tasks\InternalCommsTask.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\Tasks\InternalCommsTask.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Core\Tasks\InternalCommsTask.c
 
-CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.i"
-	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Core\Tasks\InternalCommsTask.cpp > CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\Tasks\InternalCommsTask.cpp.i
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Core\Tasks\InternalCommsTask.c > CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\Tasks\InternalCommsTask.c.i
 
-CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.s"
-	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Core\Tasks\InternalCommsTask.cpp -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\Tasks\InternalCommsTask.cpp.s
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Core\Tasks\InternalCommsTask.c -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\Tasks\InternalCommsTask.c.s
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/SensorCommsTask.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/SensorCommsTask.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Tasks/SensorCommsTask.c
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/SensorCommsTask.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/SensorCommsTask.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/SensorCommsTask.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\Tasks\SensorCommsTask.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\Tasks\SensorCommsTask.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Core\Tasks\SensorCommsTask.c
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/SensorCommsTask.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/SensorCommsTask.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Core\Tasks\SensorCommsTask.c > CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\Tasks\SensorCommsTask.c.i
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/SensorCommsTask.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/SensorCommsTask.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Core\Tasks\SensorCommsTask.c -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\Tasks\SensorCommsTask.c.s
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/TaskManager.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/TaskManager.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Tasks/TaskManager.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/TaskManager.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/TaskManager.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/TaskManager.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/TaskManager.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\Tasks\TaskManager.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\Tasks\TaskManager.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Core\Tasks\TaskManager.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/TaskManager.c.i: cmake_force
@@ -221,10 +235,24 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/TaskManager.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/TaskManager.c.s"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Core\Tasks\TaskManager.c -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\Tasks\TaskManager.c.s
 
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/PressureDriver.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/PressureDriver.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/UserDrivers/PressureDriver.c
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/PressureDriver.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/PressureDriver.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/PressureDriver.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\UserDrivers\PressureDriver.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\UserDrivers\PressureDriver.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Core\UserDrivers\PressureDriver.c
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/PressureDriver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/PressureDriver.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Core\UserDrivers\PressureDriver.c > CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\UserDrivers\PressureDriver.c.i
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/PressureDriver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/PressureDriver.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Core\UserDrivers\PressureDriver.c -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Core\UserDrivers\PressureDriver.c.s
+
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.i: cmake_force
@@ -238,7 +266,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.i: cmake_force
@@ -252,7 +280,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.i: cmake_force
@@ -266,7 +294,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.i: cmake_force
@@ -280,7 +308,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.i: cmake_force
@@ -294,7 +322,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.i: cmake_force
@@ -308,7 +336,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.i: cmake_force
@@ -322,7 +350,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -336,7 +364,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.i: cmake_force
@@ -350,7 +378,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.i: cmake_force
@@ -364,7 +392,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.i: cmake_force
@@ -378,7 +406,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.i: cmake_force
@@ -392,7 +420,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.i: cmake_force
@@ -406,7 +434,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.i: cmake_force
@@ -420,7 +448,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.i: cmake_force
@@ -434,7 +462,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.i: cmake_force
@@ -448,7 +476,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.i: cmake_force
@@ -462,7 +490,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.i: cmake_force
@@ -476,7 +504,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.i: cmake_force
@@ -487,10 +515,38 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.s"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c.s
 
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c > CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c.i
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c.s
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c > CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c.i
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c.s
+
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i: cmake_force
@@ -504,7 +560,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
@@ -518,7 +574,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
@@ -532,7 +588,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/list.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Middlewares\Third_Party\FreeRTOS\Source\list.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
@@ -546,7 +602,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
@@ -560,7 +616,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
@@ -574,7 +630,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/queue.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Middlewares\Third_Party\FreeRTOS\Source\queue.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
@@ -588,7 +644,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
@@ -602,7 +658,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
@@ -616,7 +672,7 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/timers.c
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Middlewares\Third_Party\FreeRTOS\Source\timers.c
 
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
@@ -626,6 +682,90 @@ CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/
 CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\trist\Documents\Projects\CLionProjects\psuosm\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\UOSM-pressure-sensor.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/CANDriver.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/CANDriver.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Drivers/CANDriver.c
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/CANDriver.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/CANDriver.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/CANDriver.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Drivers\CANDriver.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Drivers\CANDriver.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\UOSM-Core\Drivers\CANDriver.c
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/CANDriver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/CANDriver.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\trist\Documents\Projects\CLionProjects\psuosm\UOSM-Core\Drivers\CANDriver.c > CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Drivers\CANDriver.c.i
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/CANDriver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/CANDriver.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\trist\Documents\Projects\CLionProjects\psuosm\UOSM-Core\Drivers\CANDriver.c -o CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Drivers\CANDriver.c.s
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/MCP2515.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/MCP2515.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Drivers/MCP2515.c
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/MCP2515.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/MCP2515.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/MCP2515.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Drivers\MCP2515.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Drivers\MCP2515.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\UOSM-Core\Drivers\MCP2515.c
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/MCP2515.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/MCP2515.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\trist\Documents\Projects\CLionProjects\psuosm\UOSM-Core\Drivers\MCP2515.c > CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Drivers\MCP2515.c.i
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/MCP2515.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/MCP2515.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\trist\Documents\Projects\CLionProjects\psuosm\UOSM-Core\Drivers\MCP2515.c -o CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Drivers\MCP2515.c.s
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/SerialDebugDriver.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/SerialDebugDriver.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Drivers/SerialDebugDriver.c
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/SerialDebugDriver.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/SerialDebugDriver.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/SerialDebugDriver.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Drivers\SerialDebugDriver.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Drivers\SerialDebugDriver.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\UOSM-Core\Drivers\SerialDebugDriver.c
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/SerialDebugDriver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/SerialDebugDriver.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\trist\Documents\Projects\CLionProjects\psuosm\UOSM-Core\Drivers\SerialDebugDriver.c > CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Drivers\SerialDebugDriver.c.i
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/SerialDebugDriver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/SerialDebugDriver.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\trist\Documents\Projects\CLionProjects\psuosm\UOSM-Core\Drivers\SerialDebugDriver.c -o CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Drivers\SerialDebugDriver.c.s
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/CANMessageLookUpModule.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/CANMessageLookUpModule.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Modules/CANMessageLookUpModule.c
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/CANMessageLookUpModule.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/CANMessageLookUpModule.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/CANMessageLookUpModule.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Modules\CANMessageLookUpModule.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Modules\CANMessageLookUpModule.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\UOSM-Core\Modules\CANMessageLookUpModule.c
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/CANMessageLookUpModule.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/CANMessageLookUpModule.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\trist\Documents\Projects\CLionProjects\psuosm\UOSM-Core\Modules\CANMessageLookUpModule.c > CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Modules\CANMessageLookUpModule.c.i
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/CANMessageLookUpModule.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/CANMessageLookUpModule.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\trist\Documents\Projects\CLionProjects\psuosm\UOSM-Core\Modules\CANMessageLookUpModule.c -o CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Modules\CANMessageLookUpModule.c.s
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/InternalCommsModule.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/InternalCommsModule.c.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Modules/InternalCommsModule.c
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/InternalCommsModule.c.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/InternalCommsModule.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/InternalCommsModule.c.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Modules\InternalCommsModule.c.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Modules\InternalCommsModule.c.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\UOSM-Core\Modules\InternalCommsModule.c
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/InternalCommsModule.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/InternalCommsModule.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\trist\Documents\Projects\CLionProjects\psuosm\UOSM-Core\Modules\InternalCommsModule.c > CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Modules\InternalCommsModule.c.i
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/InternalCommsModule.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/InternalCommsModule.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\trist\Documents\Projects\CLionProjects\psuosm\UOSM-Core\Modules\InternalCommsModule.c -o CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Modules\InternalCommsModule.c.s
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Utils/Identifiable.cpp.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/flags.make
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Utils/Identifiable.cpp.obj: C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Utils/Identifiable.cpp
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Utils/Identifiable.cpp.obj: CMakeFiles/UOSM-pressure-sensor.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Utils/Identifiable.cpp.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Utils/Identifiable.cpp.obj -MF CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Utils\Identifiable.cpp.obj.d -o CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Utils\Identifiable.cpp.obj -c C:\Users\trist\Documents\Projects\CLionProjects\psuosm\UOSM-Core\Utils\Identifiable.cpp
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Utils/Identifiable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Utils/Identifiable.cpp.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trist\Documents\Projects\CLionProjects\psuosm\UOSM-Core\Utils\Identifiable.cpp > CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Utils\Identifiable.cpp.i
+
+CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Utils/Identifiable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Utils/Identifiable.cpp.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trist\Documents\Projects\CLionProjects\psuosm\UOSM-Core\Utils\Identifiable.cpp -o CMakeFiles\UOSM-pressure-sensor.elf.dir\UOSM-Core\Utils\Identifiable.cpp.s
 
 # Object files for target UOSM-pressure-sensor.elf
 UOSM__pressure__sensor_elf_OBJECTS = \
@@ -638,8 +778,10 @@ UOSM__pressure__sensor_elf_OBJECTS = \
 "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/sysmem.c.obj" \
 "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/system_stm32l4xx.c.obj" \
 "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Startup/startup_stm32l432kcux.s.obj" \
-"CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.obj" \
+"CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.c.obj" \
+"CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/SensorCommsTask.c.obj" \
 "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/TaskManager.c.obj" \
+"CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/PressureDriver.c.obj" \
 "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj" \
 "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj" \
 "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj" \
@@ -659,6 +801,8 @@ UOSM__pressure__sensor_elf_OBJECTS = \
 "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj" \
 "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj" \
 "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj" \
+"CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj" \
+"CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj" \
 "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj" \
 "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" \
 "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" \
@@ -668,7 +812,13 @@ UOSM__pressure__sensor_elf_OBJECTS = \
 "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" \
 "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" \
 "CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" \
-"CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+"CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" \
+"CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/CANDriver.c.obj" \
+"CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/MCP2515.c.obj" \
+"CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/SerialDebugDriver.c.obj" \
+"CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/CANMessageLookUpModule.c.obj" \
+"CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/InternalCommsModule.c.obj" \
+"CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Utils/Identifiable.cpp.obj"
 
 # External object files for target UOSM-pressure-sensor.elf
 UOSM__pressure__sensor_elf_EXTERNAL_OBJECTS =
@@ -682,8 +832,10 @@ UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/sysca
 UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/sysmem.c.obj
 UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/system_stm32l4xx.c.obj
 UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Startup/startup_stm32l432kcux.s.obj
-UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.cpp.obj
+UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/InternalCommsTask.c.obj
+UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/SensorCommsTask.c.obj
 UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/TaskManager.c.obj
+UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/PressureDriver.c.obj
 UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
 UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
 UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
@@ -703,6 +855,8 @@ UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L
 UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj
 UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
 UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
+UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
 UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
 UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
 UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
@@ -713,9 +867,16 @@ UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Th
 UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
 UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/CANDriver.c.obj
+UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/MCP2515.c.obj
+UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Drivers/SerialDebugDriver.c.obj
+UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/CANMessageLookUpModule.c.obj
+UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Modules/InternalCommsModule.c.obj
+UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Utils/Identifiable.cpp.obj
 UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/build.make
+UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/objects1.rsp
 UOSM-pressure-sensor.elf: CMakeFiles/UOSM-pressure-sensor.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking CXX executable UOSM-pressure-sensor.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\trist\Documents\Projects\CLionProjects\psuosm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking CXX executable UOSM-pressure-sensor.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\UOSM-pressure-sensor.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/UOSM-pressure-sensor.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/UOSM-pressure-sensor.bin"

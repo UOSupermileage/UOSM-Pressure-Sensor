@@ -24,6 +24,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32L432xx"/>
@@ -36,6 +39,11 @@
 					<Add directory="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
 					<Add directory="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
 					<Add directory="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Tasks"/>
+					<Add directory="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/UserDrivers"/>
+					<Add directory="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Drivers"/>
+					<Add directory="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Inc"/>
+					<Add directory="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Modules"/>
+					<Add directory="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Utils"/>
 					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1"/>
 					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi"/>
 					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward"/>
@@ -57,6 +65,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32L432xx"/>
@@ -69,6 +80,11 @@
 					<Add directory="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
 					<Add directory="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
 					<Add directory="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Tasks"/>
+					<Add directory="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/UserDrivers"/>
+					<Add directory="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Drivers"/>
+					<Add directory="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Inc"/>
+					<Add directory="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Modules"/>
+					<Add directory="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Utils"/>
 					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1"/>
 					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi"/>
 					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward"/>
@@ -107,6 +123,9 @@
 		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Inc/FreeRTOSConfig.h">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Inc/UOSMCoreConfig.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Inc/main.h">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
@@ -143,7 +162,7 @@
 		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Startup/startup_stm32l432kcux.s">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Tasks/InternalCommsTask.cpp">
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Tasks/InternalCommsTask.c">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Tasks/InternalCommsTask.h">
@@ -159,6 +178,12 @@
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Tasks/TaskManager.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/UserDrivers/PressureDriver.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/UserDrivers/PressureDriver.h">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l432xx.h">
@@ -317,6 +342,12 @@
 		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
@@ -341,6 +372,9 @@
 		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_i2c.h">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_lpuart.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
@@ -348,6 +382,9 @@
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_usart.h">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h">
@@ -411,6 +448,12 @@
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h">
@@ -513,6 +556,69 @@
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/STM32L432KCUX_FLASH.ld">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/.gitignore">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Drivers/CANDriver.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Drivers/CANDriver.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Drivers/MCP2515.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Drivers/MCP2515.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Drivers/SerialDebugDriver.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Drivers/SerialDebugDriver.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Inc/ApplicationTypes.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Modules/CANMessageLookUpModule.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Modules/CANMessageLookUpModule.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Modules/InternalCommsModule.c">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Modules/InternalCommsModule.h">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/README.md">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Utils/CANLogEntry.hpp">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Utils/DataQueue.hpp">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Utils/Identifiable.cpp">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Utils/Identifiable.hpp">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Utils/Observable.hpp">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Utils/ObservedDataQueue.hpp">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/Utils/ObservedObject.hpp">
+			<Option target="UOSM-pressure-sensor.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/UOSM-Core/library.json">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/trist/Documents/Projects/CLionProjects/psuosm/CMakeLists.txt">

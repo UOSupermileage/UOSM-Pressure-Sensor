@@ -6,12 +6,14 @@
 #define INTERNALCOMMSTASK_C_H
 
 // STM headers
-
-#include "cmsis_os2.h"
+#include "cmsis_os.h"
+#include "stm32l4xx_hal.h"
 
 // Our headers
+#include "ApplicationTypes.h"
 
-void InitInternalCommsTask(void);
-void InternalCommsTask(void *argument);
+
+PUBLIC void InitInternalCommsTask(void);
+PRIVATE void InternalCommsTask(void *argument);
 
 #endif //INTERNALCOMMSTASK_C_H

@@ -67,5 +67,6 @@ PRIVATE void InternalCommsTask(void *argument)
         }
 
         IComms_PeriodicReceive();
+        DebugPrint("apple");
     }
 }

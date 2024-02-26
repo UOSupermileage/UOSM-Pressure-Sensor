@@ -59,7 +59,7 @@ PUBLIC temperature_raw_t GetTemperature(void) {
 }
 
 PUBLIC void PressureCallback(void) {
-    uint8_t tx_buffer[1] = {0x44}; // 0x44 is the command to D1 conversion
+    uint8_t tx_buffer[1] = {0x46}; // 0x44 is the command to D1 conversion
     HAL_I2C_Master_Transmit(&hi2c1, 0x77, tx_buffer, 1, 1000);
     osDelay(3); // 3ms delay for D1 conversion
     // Read from the I2C1 RX buffer
@@ -76,7 +76,7 @@ PUBLIC void PressureCallback(void) {
     pressure = (rx_buffer[0] << 16) | (rx_buffer2[0] << 8) | rx_buffer3[0];
 
 
-    tx_buffer[1] = 0x54; // 0x44 is the command to D1 conversion
+    tx_buffer[1] = 0x56; // 0x44 is the command to D1 conversion
     HAL_I2C_Master_Transmit(&hi2c1, 0x77, tx_buffer, 1, 1000);
     osDelay(3); // 3ms delay for D1 conversion
     // Read from the I2C1 RX buffer

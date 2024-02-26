@@ -4,7 +4,7 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
       - "CMakeLists.txt:17 (project)"
     message: |
       The target system is: Generic - 1 - 
@@ -12,9 +12,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
@@ -42,9 +42,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
@@ -59,14 +59,14 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is GNU, found in:
-        C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.o
+        C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
@@ -94,9 +94,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -111,13 +111,13 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
       The CXX compiler identification is GNU, found in:
-        C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.o
+        C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.o
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1104 (message)"
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1131 (message)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
@@ -129,14 +129,14 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:17 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4l4f8t"
-      binary: "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4l4f8t"
+      source: "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o0wdgj"
+      binary: "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o0wdgj"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -145,13 +145,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4l4f8t'
+        Change Dir: 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o0wdgj'
         
-        Run Build Command(s): "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/trist/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_accf5/fast
-        C:/Users/trist/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_accf5.dir\\build.make CMakeFiles/cmTC_accf5.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4l4f8t'
-        Building C object CMakeFiles/cmTC_accf5.dir/CMakeCCompilerABI.c.obj
-        C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR19DD~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_accf5.dir\\CMakeCCompilerABI.c.obj -c "C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/trist/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_f136b/fast
+        C:/Users/trist/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f136b.dir\\build.make CMakeFiles/cmTC_f136b.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o0wdgj'
+        Building C object CMakeFiles/cmTC_f136b.dir/CMakeCCompilerABI.c.obj
+        C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR19DD~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_f136b.dir\\CMakeCCompilerABI.c.obj -c "C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR19DD~1.EXE
         Target: arm-none-eabi
@@ -159,8 +159,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 12.3.1 20230626 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_accf5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_accf5.dir\\'
-         c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix c:\\progra~2\\armgnu~1\\125863~1.3re\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot c:\\progra~2\\armgnu~1\\125863~1.3re\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_accf5.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\trist\\AppData\\Local\\Temp\\ccMEJvmc.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_f136b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_f136b.dir\\'
+         c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix c:\\progra~2\\armgnu~1\\125863~1.3re\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot c:\\progra~2\\armgnu~1\\125863~1.3re\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_f136b.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\trist\\AppData\\Local\\Temp\\cc9ZwMws.s
         GNU C17 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) version 12.3.1 20230626 (arm-none-eabi)
         	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -181,25 +181,25 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: fb91a105811bc5825517df4b6b01bd08
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_accf5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_accf5.dir\\'
-         c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_accf5.dir\\CMakeCCompilerABI.c.obj C:\\Users\\trist\\AppData\\Local\\Temp\\ccMEJvmc.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_f136b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_f136b.dir\\'
+         c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_f136b.dir\\CMakeCCompilerABI.c.obj C:\\Users\\trist\\AppData\\Local\\Temp\\cc9ZwMws.s
         GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 2.40.0.20230627
         COMPILER_PATH=c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/;c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/;c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/;c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/;c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/;c:/progra~2/armgnu~1/125863~1.3re/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_accf5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_accf5.dir\\CMakeCCompilerABI.c.'
-        Linking C static library libcmTC_accf5.a
-        "C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_accf5.dir\\cmake_clean_target.cmake
-        "C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_accf5.dir\\link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_accf5.a CMakeFiles/cmTC_accf5.dir/CMakeCCompilerABI.c.obj
-        C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR17F9~1.EXE libcmTC_accf5.a
-        mingw32-make[1]: Leaving directory 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4l4f8t'
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_f136b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_f136b.dir\\CMakeCCompilerABI.c.'
+        Linking C static library libcmTC_f136b.a
+        "C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_f136b.dir\\cmake_clean_target.cmake
+        "C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_f136b.dir\\link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_f136b.a CMakeFiles/cmTC_f136b.dir/CMakeCCompilerABI.c.obj
+        C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR17F9~1.EXE libcmTC_f136b.a
+        mingw32-make[1]: Leaving directory 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o0wdgj'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
@@ -218,19 +218,19 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4l4f8t']
+        ignore line: [Change Dir: 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o0wdgj']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/trist/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_accf5/fast]
-        ignore line: [C:/Users/trist/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_accf5.dir\\build.make CMakeFiles/cmTC_accf5.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4l4f8t']
-        ignore line: [Building C object CMakeFiles/cmTC_accf5.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR19DD~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_accf5.dir\\CMakeCCompilerABI.c.obj -c "C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/trist/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_f136b/fast]
+        ignore line: [C:/Users/trist/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f136b.dir\\build.make CMakeFiles/cmTC_f136b.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o0wdgj']
+        ignore line: [Building C object CMakeFiles/cmTC_f136b.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR19DD~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_f136b.dir\\CMakeCCompilerABI.c.obj -c "C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR19DD~1.EXE]
         ignore line: [Target: arm-none-eabi]
@@ -238,8 +238,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.3.1 20230626 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_accf5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_accf5.dir\\']
-        ignore line: [ c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix c:\\progra~2\\armgnu~1\\125863~1.3re\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot c:\\progra~2\\armgnu~1\\125863~1.3re\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_accf5.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\trist\\AppData\\Local\\Temp\\ccMEJvmc.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_f136b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_f136b.dir\\']
+        ignore line: [ c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix c:\\progra~2\\armgnu~1\\125863~1.3re\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot c:\\progra~2\\armgnu~1\\125863~1.3re\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_f136b.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\trist\\AppData\\Local\\Temp\\cc9ZwMws.s]
         ignore line: [GNU C17 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) version 12.3.1 20230626 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -260,8 +260,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: fb91a105811bc5825517df4b6b01bd08]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_accf5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_accf5.dir\\']
-        ignore line: [ c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_accf5.dir\\CMakeCCompilerABI.c.obj C:\\Users\\trist\\AppData\\Local\\Temp\\ccMEJvmc.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_f136b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_f136b.dir\\']
+        ignore line: [ c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_f136b.dir\\CMakeCCompilerABI.c.obj C:\\Users\\trist\\AppData\\Local\\Temp\\cc9ZwMws.s]
         ignore line: [GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 2.40.0.20230627]
         ignore line: [COMPILER_PATH=c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/]
         ignore line: [c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/]
@@ -270,13 +270,13 @@ events:
         ignore line: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/]
         ignore line: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/]
         ignore line: [c:/progra~2/armgnu~1/125863~1.3re/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_accf5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_accf5.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C static library libcmTC_accf5.a]
-        ignore line: ["C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_accf5.dir\\cmake_clean_target.cmake]
-        ignore line: ["C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_accf5.dir\\link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_accf5.a CMakeFiles/cmTC_accf5.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR17F9~1.EXE libcmTC_accf5.a]
-        ignore line: [mingw32-make[1]: Leaving directory 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4l4f8t']
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_f136b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_f136b.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C static library libcmTC_f136b.a]
+        ignore line: ["C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_f136b.dir\\cmake_clean_target.cmake]
+        ignore line: ["C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_f136b.dir\\link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_f136b.a CMakeFiles/cmTC_f136b.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR17F9~1.EXE libcmTC_f136b.a]
+        ignore line: [mingw32-make[1]: Leaving directory 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o0wdgj']
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -288,14 +288,14 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:17 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e6upmq"
-      binary: "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e6upmq"
+      source: "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lcrbk4"
+      binary: "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lcrbk4"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -304,13 +304,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e6upmq'
+        Change Dir: 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lcrbk4'
         
-        Run Build Command(s): "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/trist/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_240ea/fast
-        C:/Users/trist/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_240ea.dir\\build.make CMakeFiles/cmTC_240ea.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e6upmq'
-        Building CXX object CMakeFiles/cmTC_240ea.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR10B2~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_240ea.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/trist/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_e6f9d/fast
+        C:/Users/trist/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e6f9d.dir\\build.make CMakeFiles/cmTC_e6f9d.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lcrbk4'
+        Building CXX object CMakeFiles/cmTC_e6f9d.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR10B2~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_e6f9d.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR10B2~1.EXE
         Target: arm-none-eabi
@@ -318,8 +318,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 12.3.1 20230626 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_240ea.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_240ea.dir\\'
-         c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix c:\\progra~2\\armgnu~1\\125863~1.3re\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot c:\\progra~2\\armgnu~1\\125863~1.3re\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_240ea.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\trist\\AppData\\Local\\Temp\\ccfrIKrg.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e6f9d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_e6f9d.dir\\'
+         c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix c:\\progra~2\\armgnu~1\\125863~1.3re\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot c:\\progra~2\\armgnu~1\\125863~1.3re\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_e6f9d.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\trist\\AppData\\Local\\Temp\\ccKmDrl1.s
         GNU C++17 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) version 12.3.1 20230626 (arm-none-eabi)
         	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -346,25 +346,25 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: e7b3f66350dc9cf5c9189807aa34626d
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_240ea.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_240ea.dir\\'
-         c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_240ea.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\trist\\AppData\\Local\\Temp\\ccfrIKrg.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e6f9d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_e6f9d.dir\\'
+         c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_e6f9d.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\trist\\AppData\\Local\\Temp\\ccKmDrl1.s
         GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 2.40.0.20230627
         COMPILER_PATH=c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/;c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/;c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/;c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/;c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/;c:/progra~2/armgnu~1/125863~1.3re/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_240ea.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_240ea.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX static library libcmTC_240ea.a
-        "C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_240ea.dir\\cmake_clean_target.cmake
-        "C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_240ea.dir\\link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_240ea.a CMakeFiles/cmTC_240ea.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR17F9~1.EXE libcmTC_240ea.a
-        mingw32-make[1]: Leaving directory 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e6upmq'
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e6f9d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_e6f9d.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX static library libcmTC_e6f9d.a
+        "C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_e6f9d.dir\\cmake_clean_target.cmake
+        "C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e6f9d.dir\\link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_e6f9d.a CMakeFiles/cmTC_e6f9d.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR17F9~1.EXE libcmTC_e6f9d.a
+        mingw32-make[1]: Leaving directory 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lcrbk4'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
@@ -389,19 +389,19 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
-      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e6upmq']
+        ignore line: [Change Dir: 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lcrbk4']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/trist/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_240ea/fast]
-        ignore line: [C:/Users/trist/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_240ea.dir\\build.make CMakeFiles/cmTC_240ea.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e6upmq']
-        ignore line: [Building CXX object CMakeFiles/cmTC_240ea.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR10B2~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_240ea.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Users/trist/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/trist/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_e6f9d/fast]
+        ignore line: [C:/Users/trist/AppData/Local/Programs/CLIONN~1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e6f9d.dir\\build.make CMakeFiles/cmTC_e6f9d.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lcrbk4']
+        ignore line: [Building CXX object CMakeFiles/cmTC_e6f9d.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR10B2~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_e6f9d.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR10B2~1.EXE]
         ignore line: [Target: arm-none-eabi]
@@ -409,8 +409,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.3.1 20230626 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_240ea.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_240ea.dir\\']
-        ignore line: [ c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix c:\\progra~2\\armgnu~1\\125863~1.3re\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot c:\\progra~2\\armgnu~1\\125863~1.3re\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_240ea.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\trist\\AppData\\Local\\Temp\\ccfrIKrg.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e6f9d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_e6f9d.dir\\']
+        ignore line: [ c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix c:\\progra~2\\armgnu~1\\125863~1.3re\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot c:\\progra~2\\armgnu~1\\125863~1.3re\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_e6f9d.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\trist\\AppData\\Local\\Temp\\ccKmDrl1.s]
         ignore line: [GNU C++17 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) version 12.3.1 20230626 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -437,8 +437,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: e7b3f66350dc9cf5c9189807aa34626d]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_240ea.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_240ea.dir\\']
-        ignore line: [ c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_240ea.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\trist\\AppData\\Local\\Temp\\ccfrIKrg.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e6f9d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_e6f9d.dir\\']
+        ignore line: [ c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_e6f9d.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\trist\\AppData\\Local\\Temp\\ccKmDrl1.s]
         ignore line: [GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 2.40.0.20230627]
         ignore line: [COMPILER_PATH=c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/arm-none-eabi/12.3.1/]
         ignore line: [c:/progra~2/armgnu~1/125863~1.3re/bin/../libexec/gcc/]
@@ -447,13 +447,13 @@ events:
         ignore line: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/]
         ignore line: [c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/]
         ignore line: [c:/progra~2/armgnu~1/125863~1.3re/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_240ea.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_240ea.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX static library libcmTC_240ea.a]
-        ignore line: ["C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_240ea.dir\\cmake_clean_target.cmake]
-        ignore line: ["C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_240ea.dir\\link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_240ea.a CMakeFiles/cmTC_240ea.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR17F9~1.EXE libcmTC_240ea.a]
-        ignore line: [mingw32-make[1]: Leaving directory 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e6upmq']
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e6f9d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_e6f9d.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX static library libcmTC_e6f9d.a]
+        ignore line: ["C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_e6f9d.dir\\cmake_clean_target.cmake]
+        ignore line: ["C:\\Users\\trist\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e6f9d.dir\\link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_e6f9d.a CMakeFiles/cmTC_e6f9d.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\PROGRA~2\\ARMGNU~1\\125863~1.3RE\\bin\\AR17F9~1.EXE libcmTC_e6f9d.a]
+        ignore line: [mingw32-make[1]: Leaving directory 'C:/Users/trist/Documents/Projects/CLionProjects/psuosm/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lcrbk4']
         ignore line: []
         ignore line: []
         implicit libs: []

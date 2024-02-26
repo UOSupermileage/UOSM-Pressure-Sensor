@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/CANCallback.c.obj"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/CANCallback.c.obj.d"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/freertos.c.obj"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/freertos.c.obj.d"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/main.c.obj"

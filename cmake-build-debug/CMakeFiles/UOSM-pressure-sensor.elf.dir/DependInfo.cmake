@@ -42,6 +42,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Src/CANCallback.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/CANCallback.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/CANCallback.c.obj.d"
   "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Src/freertos.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/freertos.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/freertos.c.obj.d"
   "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Src/main.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/main.c.obj.d"
   "C:/Users/trist/Documents/Projects/CLionProjects/psuosm/Core/Src/stm32l4xx_hal_msp.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj.d"
@@ -95,6 +96,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links which contain Fortran sources.
 set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

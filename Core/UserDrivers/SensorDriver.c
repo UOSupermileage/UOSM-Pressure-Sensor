@@ -37,12 +37,11 @@ const uint8_t _Q_coeff[pp_MAXPART][6] =
 #define T_REF   (_PROM_coeff[4])
 #define T_SENS  (_PROM_coeff[5])
 
-MS5525DSO(MS5525DSO_part_t partNum, TwoWire *_aWire)
+void MS5525DSO(MS5525DSO_part_t partNum, I2C_HandleTypeDef *i2c_handle)
 {
   _partNum = partNum;
   setOSR(MS5525DSO_OSR_4096);
-  _wire = _aWire;
-  _i2c_addr = 0;
+  _sensor_i2c_handle = i2c_handle;
 }
 
 void setOSR(uint8_t osr)
@@ -51,37 +50,37 @@ void setOSR(uint8_t osr)
   if (_osr > 8) _osr = 8;
 }
 
-bool begin(uint8_t addr)
+uint8_t begin(uint8_t addr)
 {
-  if (_wire == NULL) return false;
-  _i2c_addr = addr;
+  if (i2c_handle == NULL) return 0;
+  I2C_Init(i2c_handle, addr, 1000); // 1000ms timeout
   return _begin_common();
 }
 
-bool _begin_common(void)
+uint8_t _begin_common(void)
 {
-  bool success = true;
+  uint8_t success = 1;
   
   reset();
 
   // Read PROM calibration parameters 1 through 6
   for (uint8_t i = 1; i <= 6; i++) {
-    if (!_read_prom(i, &_PROM_coeff[i - 1])) success = false;
+    if (!_read_prom(i, &_PROM_coeff[i - 1])) success = 0;
   }
   return success;
 }
 
-void dumpCoefficients(Stream & s)
+void dumpCoefficients()
 {
-  s.printf("C1 - Pressure Sensitivity                            : %u\r\n", P_SENS);
-  s.printf("C2 - Pressure Offset                                 : %u\r\n", P_OFF);
-  s.printf("C3 - Temperature Coefficient of Pressure Sensitivity : %u\r\n", TC_SENS);
-  s.printf("C4 - Temperature Coefficient of Pressure Offset      : %u\r\n", TC_OFF);
-  s.printf("C5 - Reference Temperature                           : %u\r\n", T_REF);
-  s.printf("C6 - Temperature Coefficient of Temperature          : %u\r\n", T_SENS);
+  DebugPrint("C1 - Pressure Sensitivity                            : %u\r\n", P_SENS);
+  DebugPrint("C2 - Pressure Offset                                 : %u\r\n", P_OFF);
+  DebugPrint("C3 - Temperature Coefficient of Pressure Sensitivity : %u\r\n", TC_SENS);
+  DebugPrint("C4 - Temperature Coefficient of Pressure Offset      : %u\r\n", TC_OFF);
+  DebugPrint("C5 - Reference Temperature                           : %u\r\n", T_REF);
+  DebugPrint("C6 - Temperature Coefficient of Temperature          : %u\r\n", T_SENS);
 }
 
-bool readPressureAndTemperature(double * pressure, double * temperature)
+uint8_t readPressureAndTemperature(double * pressure, double * temperature)
 {
   uint32_t raw[2];  // index 0 is raw pressure, index 1 is raw temperature
 
@@ -91,24 +90,24 @@ bool readPressureAndTemperature(double * pressure, double * temperature)
     // Delay the maximum expected time depending on OSR
     switch (_osr) {
     case MS5525DSO_OSR_256:
-      delay(1);
+      osDelay(1);
       break;
     case MS5525DSO_OSR_512:
-      delay(2);
+      osDelay(2);
       break;
     case MS5525DSO_OSR_1024:
-      delay(3);
+      osDelay(3);
       break;
     case MS5525DSO_OSR_2048:
-      delay(5);
+      osDelay(5);
       break;
     case MS5525DSO_OSR_4096:
     default:
-      delay(10);
+      osDelay(10);
       break;
     }
 
-    if (!_read_adc(&raw[i])) return false;
+    if (!_read_adc(&raw[i])) return 0;
   }
 
   // Difference between actual and reference temperature
@@ -129,59 +128,50 @@ bool readPressureAndTemperature(double * pressure, double * temperature)
     *temperature = (2000 + ((dT * T_SENS) >> Q6)) * 0.01;
   }
 
-  return true;
+  return 1;
 }
 
-bool _read_prom(uint8_t i, uint16_t * c)
+uint8_t _read_prom(uint8_t i, uint16_t * c)
 {
   // Address of PROM parameter to read
-  _wire->beginTransmission(_i2c_addr);
-  _wire->write(MS5525DSO_CMD_BASE_PROM | (i << 1));
-  _wire->endTransmission();
+  I2C_Write(MS5525DSO_CMD_BASE_PROM | (i << 1),1000);
 
-  if (_wire->requestFrom(_i2c_addr, (uint8_t)2) < 2) {
-    return false;
-  }
+  // if (_wire->requestFrom(_i2c_addr, (uint8_t)2) < 2) {
+  //   return 0;
+  // }
 
   // Read 2 bytes of the coefficient, MSB first
   *c = 0;
   for (auto n = 0; n < 2; n++) {
-    *c = (*c << 8) | _wire->read();
+    *c = (*c << 8) | I2C_Read(1,1000);
   }
-  return true;
+  return 1;
 }
 
 void _convert_D(uint8_t d)
 {
-  _wire->beginTransmission(_i2c_addr);
-  _wire->write(MS5525DSO_CMD_CONVERT | ((d & 0x01) << 4) | _osr);
-  _wire->endTransmission();
+  I2C_Write(MS5525DSO_CMD_CONVERT | ((d & 0x01) << 4) | _osr,1000);
 }
 
-bool _read_adc(uint32_t * c)
+uint8_t _read_adc(uint32_t * c)
 {
-  _wire->beginTransmission(_i2c_addr);
-  _wire->write((uint8_t)0x00);
-  _wire->endTransmission();
+  I2C_Write((uint8_t)0x00,1000);
   
-  if (_wire->requestFrom(_i2c_addr, (uint8_t)3) < 3) {
-    return false;
-  }
+  // if (_wire->requestFrom(_i2c_addr, (uint8_t)3) < 3) {
+  //   return 0;
+  // }
 
   // Read 3 bytes of the ADC result, MSB first
   *c = 0;
   for (auto n = 0; n < 3; n++) {
-    *c = (*c << 8) | _wire->read();
+    *c = (*c << 8) | I2C_Read(1,1000);
   }
 
-  return true;
+  return 1;
 }
 
 void reset(void)
 {
-  _wire->beginTransmission(_i2c_addr);
-  _wire->write(MS5525DSO_CMD_RESET);
-  _wire->endTransmission();
-
-  delay(10);
+  I2C_Write(MS5525DSO_CMD_RESET,1000);
+  osDelay(10);
 }

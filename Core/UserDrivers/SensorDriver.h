@@ -11,6 +11,7 @@
 #include "ApplicationTypes.h"
 #include "cmsis_os.h"
 #include "stm32l4xx_hal.h"
+#include "I2CDriver.h"
 
 /* DO NOT reorder or add entries to this model enumeration unless the
  * quotient table is updated as well. */
@@ -40,7 +41,7 @@ typedef enum
 
 // private
   /* Table of coefficients that depend on the part number */
-  static const uint8_t _Q_coeff[pp_MAXPART][6];
+  const uint8_t _Q_coeff[pp_MAXPART][6];
 
   /* Table of parameters read from PROM on startup */
   uint16_t _PROM_coeff[6];
@@ -52,17 +53,16 @@ typedef enum
   uint8_t _osr;
 
   /* I2C interface to use for operation in I2C mode */
-  TwoWire * _wire;
-  uint8_t _i2c_addr;
+  I2C_HandleTypeDef *_sensor_i2c_handle;
 
-  bool _begin_common(void);
-  bool _read_prom(uint8_t, uint16_t *);
+  uint8_t _begin_common(void);
+  uint8_t _read_prom(uint8_t, uint16_t *);
   void _convert_D(uint8_t);
-  bool _read_adc(uint32_t *);
+  uint8_t _read_adc(uint32_t *);
 
 // public
   /* Constructor for sensor in I2C mode. The I2C address will be specified in the begin() method. */
-  MS5525DSO(MS5525DSO_part_t partNum, TwoWire *_aWire = &Wire);
+  void MS5525DSO(MS5525DSO_part_t partNum, I2C_HandleTypeDef *i2c_handle);
 
   /* Constructor for sensor in SPI mode. */
   //MS5525DSO(MS5525DSO_part_t partNum, uint8_t cs, SPIClass *_spi = &SPI);
@@ -72,13 +72,13 @@ typedef enum
 
   /* WARNING: the library will *not* call Wire.begin() for you. This should be done before
    * calling the following 3 methods. */
-  bool begin(uint8_t addr = I2C_MS5525DSO_ADDR);
+  uint8_t begin(uint8_t addr);
   void reset(void);
 
   /* Pressure returned in psi, temperature returned in degrees Celsius, */
-  bool readPressureAndTemperature(double * pressure, double * temperature = NULL);
+  uint8_t readPressureAndTemperature(double * pressure, double * temperature);
 
   /* The following methods are for debugging only */
-  void dumpCoefficients(Stream &);
+  void dumpCoefficients(void);
 
 #endif //SENSORDRIVER_H

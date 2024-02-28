@@ -42,8 +42,12 @@ PUBLIC void InitPressure(void) {
     pressure = 0;
 
     MS5525DSO(pp001DS, &hi2c1);
+    osDelay(3000);
 
-    begin(I2C_MS5525DSO_ADDR_ALT);
+    while (!begin(I2C_MS5525DSO_ADDR_ALT)){
+        DebugPrint("Failed to initialize pressure sensor\n");
+        osDelay(1000);
+    }
     dumpCoefficients();
 
     // uint8_t tx_buffer[1] = {0x1E}; // 0x1E is the command to reset the sensor
@@ -102,7 +106,7 @@ PUBLIC void PressureCallback(void) {
     // HAL_I2C_Master_Receive(&hi2c1, 0x77, rx_buffer3, 1, 1000);
     //
     // temperature = (rx_buffer[0] << 16) | (rx_buffer2[0] << 8) | rx_buffer3[0];
-
+    osDelay(200);
     readPressureAndTemperature(&pressure, &temperature);
     DebugPrint("Pressure: %d\n", pressure);
     DebugPrint("Temperature: %d\n", temperature);

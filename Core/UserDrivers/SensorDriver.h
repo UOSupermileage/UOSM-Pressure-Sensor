@@ -40,20 +40,7 @@ typedef enum
 #define MS5525DSO_OSR_4096  8
 
 // private
-  /* Table of coefficients that depend on the part number */
-  const uint8_t _Q_coeff[pp_MAXPART][6];
 
-  /* Table of parameters read from PROM on startup */
-  uint16_t _PROM_coeff[6];
-
-  /* Selected part code to be managed */
-  MS5525DSO_part_t _partNum;
-
-  /* Oversampling ratio (OSR) selection for ADC reading */
-  uint8_t _osr;
-
-  /* I2C interface to use for operation in I2C mode */
-  I2C_HandleTypeDef *_sensor_i2c_handle;
 
   uint8_t _begin_common(void);
   uint8_t _read_prom(uint8_t, uint16_t *);
@@ -67,7 +54,7 @@ typedef enum
   /* Constructor for sensor in SPI mode. */
   //MS5525DSO(MS5525DSO_part_t partNum, uint8_t cs, SPIClass *_spi = &SPI);
 
-  uint8_t getOSR(void)  { return _osr; }
+  // uint8_t getOSR(void)  { return _osr; }
   void setOSR(uint8_t);
 
   /* WARNING: the library will *not* call Wire.begin() for you. This should be done before

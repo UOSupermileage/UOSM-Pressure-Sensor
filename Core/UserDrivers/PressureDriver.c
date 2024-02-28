@@ -6,7 +6,7 @@
 
 #include "ApplicationTypes.h"
 
-// extern I2C_HandleTypeDef hi2c1;
+extern I2C_HandleTypeDef hi2c1;
 
 // uint16_t PROM_coeff[6];
 // #define P_SENS  (PROM_coeff[0])
@@ -40,6 +40,8 @@ double pressure;
 PUBLIC void InitPressure(void) {
     temperature = 0;
     pressure = 0;
+
+    MS5525DSO(pp001DS, &hi2c1);
 
     begin(I2C_MS5525DSO_ADDR_ALT);
     dumpCoefficients();

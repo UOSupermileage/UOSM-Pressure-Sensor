@@ -8,6 +8,22 @@
 #define MS5525DSO_CMD_BASE_PROM ((uint8_t)0xa0)
 #define MS5525DSO_CMD_CONVERT   ((uint8_t)0x40)
 
+/* Table of coefficients that depend on the part number */
+const uint8_t _Q_coeff[pp_MAXPART][6];
+
+/* Table of parameters read from PROM on startup */
+uint16_t _PROM_coeff[6];
+
+/* Selected part code to be managed */
+MS5525DSO_part_t _partNum;
+
+/* I2C interface to use for operation in I2C mode */
+I2C_HandleTypeDef *_sensor_i2c_handle;
+
+
+/* Oversampling ratio (OSR) selection for ADC reading */
+uint8_t _osr;
+
 const uint8_t _Q_coeff[pp_MAXPART][6] =
 {
   { 15, 17, 7, 5, 7, 21 }, // pp001DS
@@ -52,8 +68,8 @@ void setOSR(uint8_t osr)
 
 uint8_t begin(uint8_t addr)
 {
-  if (i2c_handle == NULL) return 0;
-  I2C_Init(i2c_handle, addr, 1000); // 1000ms timeout
+  if (_sensor_i2c_handle == NULL) return 0;
+  I2C_Init(_sensor_i2c_handle, addr, 1000); // 1000ms timeout
   return _begin_common();
 }
 
@@ -142,7 +158,7 @@ uint8_t _read_prom(uint8_t i, uint16_t * c)
 
   // Read 2 bytes of the coefficient, MSB first
   *c = 0;
-  for (auto n = 0; n < 2; n++) {
+  for (uint8_t n = 0; n < 2; n++) {
     *c = (*c << 8) | I2C_Read(1,1000);
   }
   return 1;
@@ -163,7 +179,7 @@ uint8_t _read_adc(uint32_t * c)
 
   // Read 3 bytes of the ADC result, MSB first
   *c = 0;
-  for (auto n = 0; n < 3; n++) {
+  for (uint8_t n = 0; n < 3; n++) {
     *c = (*c << 8) | I2C_Read(1,1000);
   }
 

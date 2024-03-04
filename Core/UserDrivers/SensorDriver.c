@@ -159,7 +159,7 @@ uint8_t _read_prom(uint8_t i, uint16_t * c)
   // Read 2 bytes of the coefficient, MSB first
   *c = 0;
   for (uint8_t n = 0; n < 2; n++) {
-    *c = (*c << 8) | I2C_Read(1,1000);
+    *c = (*c << 8) | I2C_Read(1,(uint8_t)2,1000);
   }
   return 1;
 }
@@ -180,7 +180,7 @@ uint8_t _read_adc(uint32_t * c)
   // Read 3 bytes of the ADC result, MSB first
   *c = 0;
   for (uint8_t n = 0; n < 3; n++) {
-    *c = (*c << 8) | I2C_Read(1,1000);
+    *c = (*c << 8) | I2C_Read(1,(uint8_t)3,1000);
   }
 
   return 1;

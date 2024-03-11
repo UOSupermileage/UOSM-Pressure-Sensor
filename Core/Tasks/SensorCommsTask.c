@@ -7,7 +7,7 @@
 // STM headers
 #include <ApplicationTypes.h>
 
-#include "PressureDriver.h"
+#include "MS5525DSO.h"
 
 osThreadId_t SensorCommsTaskHandle;
 
@@ -22,10 +22,17 @@ void InitSensorCommsTask(void) {
 }
 
 void SensorCommsTask(void *argument) {
-    InitPressure();
+    DebugPrint("Starting SensorCommsTask");
+    MS5525DSOInit();
+
     DebugPrint("Starting sensor task");
+
+    int32_t pressure;
+    int32_t temperature;
+
     while (1) {
-        PressureCallback();
+        MS5525DSORead(&pressure, &temperature);
+        DebugPrint("Pressure: %d, Temperature: %d", pressure, temperature);
         osDelay(100);
     }
 }

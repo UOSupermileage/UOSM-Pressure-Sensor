@@ -24,8 +24,14 @@ file(REMOVE_RECURSE
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/SensorCommsTask.c.obj.d"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/TaskManager.c.obj"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/TaskManager.c.obj.d"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/I2CDriver.c.obj"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/I2CDriver.c.obj.d"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/MS5525DSO.c.obj"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/MS5525DSO.c.obj.d"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/PressureDriver.c.obj"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/PressureDriver.c.obj.d"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/SensorDriver.c.obj"
+  "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/SensorDriver.c.obj.d"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj.d"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
@@ -101,7 +107,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Utils/Identifiable.cpp.obj"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Utils/Identifiable.cpp.obj.d"
   "UOSM-pressure-sensor.elf"
-  "UOSM-pressure-sensor.elf.manifest"
   "UOSM-pressure-sensor.elf.pdb"
 )
 

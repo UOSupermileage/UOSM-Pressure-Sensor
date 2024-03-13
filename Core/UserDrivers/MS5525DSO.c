@@ -9,10 +9,10 @@
 extern I2C_HandleTypeDef hi2c1;
 #define I2C hi2c1
 
-#define ADDRESS 0x77
+#define ADDRESS (0x77 << 1)
 
 #define TIMEOUT_ATTEMPTS 2
-#define TIMEOUT_LENGTH 1000
+#define TIMEOUT_LENGTH 2000
 
 uint16_t coefficients[6];
 #define P_SENS  (coefficients[0])
@@ -36,34 +36,37 @@ uint16_t coefficients[6];
 #define Q5 7
 #define Q6 21
 
+#define MS5525_LOG_LEVEL 0
+
 static result_t ReadCalibrationData(uint8_t index, uint16_t* coefficient);
-static result_t ReadRegister(uint8_t address, uint32_t* data);
+static result_t ReadData(uint8_t command, uint32_t* data);
+static result_t ReadResponse(uint32_t* data);
+static result_t Reset();
 
 #define POW(exp) ((uint32_t)1 << exp)
 
 PUBLIC result_t MS5525DSOInit() {
     // Init I2C
-    if (!HAL_I2C_IsDeviceReady(&I2C, ADDRESS, TIMEOUT_ATTEMPTS, TIMEOUT_LENGTH)) {
+    if (HAL_I2C_IsDeviceReady(&I2C, ADDRESS, TIMEOUT_ATTEMPTS, TIMEOUT_LENGTH) != HAL_OK) {
         DebugPrint("Failed to find MS5525DSO on I2C.");
         return RESULT_FAIL;
+    } else {
+        DebugPrint("Found device");
     }
 
-    uint8_t command_buffer[1] = { COMMAND_RESET };
 
-    // Reset MS5525DSO
-    if (!HAL_I2C_Master_Transmit(&I2C, ADDRESS, command_buffer, 1, TIMEOUT_LENGTH)) {
-        DebugPrint("Failed to reset MS5525DSO.");
-        return RESULT_FAIL;
-    }
 
     // Read C1 to C6
     for (uint8_t i = 0; i < 6; i++) {
         if (!ReadCalibrationData(i + 1, coefficients + i)) {
             DebugPrint("Failed to read C%d.", i + 1);
+            return RESULT_FAIL;
+        } else {
+            DebugPrint("Coefficient %d: %d", i + 1, coefficients[i]);
         }
     }
 
-    return RESULT_FAIL;
+    return RESULT_OK;
 }
 
 /**
@@ -78,21 +81,45 @@ PUBLIC result_t MS5525DSORead(int32_t * pressure, int32_t * temperature) {
         return RESULT_FAIL;
     }
 
-    // Trigger ADC Read
-    uint8_t command_buffer[1] = { COMMAND_READ_ADC };
-    if (!HAL_I2C_Master_Transmit(&I2C, ADDRESS, command_buffer, 1, TIMEOUT_LENGTH)) {
-        DebugPrint("Failed to transmit ADC read command.");
+    if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_7) != GPIO_PIN_SET) {
+        DebugPrint("Aborting due to SDA not being high.");
         return RESULT_FAIL;
     }
 
-    osDelay(50);
+    if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6) != GPIO_PIN_SET) {
+        DebugPrint("Aborting due to SCL not being high.");
 
-    // Read data
+        HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_RESET);
+        asm("nop");
+        HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_SET);
+        asm("nop");
+
+        osDelay(50);
+
+        HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_RESET);
+        HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_RESET);
+
+        HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_SET);
+        HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_SET);
+
+        return RESULT_FAIL;
+    }
+
     uint32_t raw_pressure;
-    uint32_t raw_temperature;
+    ReadData(COMMAND_READ_PRESSURE, &raw_pressure);
 
-    ReadRegister(COMMAND_READ_PRESSURE, &raw_pressure);
-    ReadRegister(COMMAND_READ_TEMPERATURE, &raw_temperature);
+#if MS5525_LOG_LEVEL > 0
+    DebugPrint("Received raw pressure: %d", raw_pressure);
+#endif
+
+    osDelay(200);
+
+    uint32_t raw_temperature;
+    ReadData(COMMAND_READ_TEMPERATURE, &raw_temperature);
+
+#if MS5525_LOG_LEVEL > 0
+    DebugPrint("Received raw temperature: %d", raw_temperature);
+#endif
 
     // Calculate Temperature TODO: This conversion is wacky
     // raw_temperature is maximum 24 bits, reinterpretation as signed should not lose accuracy
@@ -119,11 +146,16 @@ static result_t ReadCalibrationData(uint8_t index, uint16_t* coefficient) {
         return RESULT_FAIL;
     }
 
+    if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_7) != GPIO_PIN_SET || HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6) != GPIO_PIN_SET) {
+        Reset();
+        return RESULT_FAIL;
+    }
+
     uint8_t memory_address = 0xA0 | (index << 1);
 
     // Send Read Command
     uint8_t rx_buffer[2];
-    if (!HAL_I2C_Mem_Read(&I2C, ADDRESS, memory_address, I2C_MEMADD_SIZE_8BIT, rx_buffer, 2, TIMEOUT_LENGTH)) {
+    if (HAL_I2C_Mem_Read(&I2C, ADDRESS, memory_address, I2C_MEMADD_SIZE_8BIT, rx_buffer, 2, TIMEOUT_LENGTH) != HAL_OK) {
         DebugPrint("Failed to read PROM C%d", index);
         return RESULT_FAIL;
     }
@@ -132,7 +164,54 @@ static result_t ReadCalibrationData(uint8_t index, uint16_t* coefficient) {
     return RESULT_OK;
 }
 
-static result_t ReadRegister(uint8_t address, uint32_t* data) {
+/**
+ * Read either pressure or temperature
+ * @param command
+ * @param data
+ * @return
+ */
+static result_t ReadData(uint8_t command, uint32_t* data) {
+    // Trigger Conversion
+#if MS5525_LOG_LEVEL > 0
+    DebugPrint("Reading %02x", command);
+#endif
+    uint8_t command_buffer[1] = { command };
+    HAL_StatusTypeDef status = HAL_I2C_Master_Transmit(&I2C, ADDRESS, command_buffer, 1, TIMEOUT_LENGTH);
+    if (status != HAL_OK) {
+        DebugPrint("Failed to transmit ADC read command. HAL Status: 0x%02x", status);
+        return RESULT_FAIL;
+    }
+
+    osDelay(50);
+
+#if MS5525_LOG_LEVEL > 0
+    DebugPrint("Reading ADC");
+#endif
+
+    // Trigger ADC Read
+    command_buffer[0] = COMMAND_READ_ADC;
+    status = HAL_I2C_Master_Transmit(&I2C, ADDRESS, command_buffer, 1, TIMEOUT_LENGTH);
+    if (status != HAL_OK) {
+        DebugPrint("Failed to transmit ADC read command. HAL Status: 0x%02x", status);
+        return RESULT_FAIL;
+    }
+
+    // Read data
+    uint32_t raw_data;
+#if MS5525_LOG_LEVEL > 0
+    DebugPrint("Reading Response");
+#endif
+
+    if (ReadResponse(&raw_data) == RESULT_FAIL) {
+        DebugPrint("Failed to receive from %02x", command);
+        return RESULT_FAIL;
+    };
+
+    *data = raw_data;
+    return RESULT_OK;
+}
+
+static result_t ReadResponse(uint32_t* data) {
     if (!data) {
         DebugPrint("data ptr is null");
         return RESULT_FAIL;
@@ -140,11 +219,23 @@ static result_t ReadRegister(uint8_t address, uint32_t* data) {
 
     // Send Read Command
     uint8_t rx_buffer[3];
-    if (!HAL_I2C_Mem_Read(&I2C, ADDRESS, address, I2C_MEMADD_SIZE_8BIT, rx_buffer, 3, TIMEOUT_LENGTH)) {
-        DebugPrint("Failed to read register %02x", address);
+    HAL_StatusTypeDef status = HAL_I2C_Master_Receive(&I2C, ADDRESS, rx_buffer, 3, TIMEOUT_LENGTH);
+    if (status != HAL_OK) {
+        DebugPrint("Failed to receive data. HAL Status: %02x", status);
         return RESULT_FAIL;
     }
 
-    *data = (rx_buffer[0] << 16) | (rx_buffer[1] << 8) | rx_buffer[2];
+    *data = ((uint32_t) rx_buffer[0] << 16) | ((uint32_t) rx_buffer[1] << 8) | rx_buffer[2];
     return RESULT_OK;
+}
+
+static result_t Reset() {
+    uint8_t command_buffer[1] = { COMMAND_RESET };
+
+    // Reset MS5525DSO
+    HAL_StatusTypeDef status =  HAL_I2C_Master_Transmit(&I2C, ADDRESS, command_buffer, 1, TIMEOUT_LENGTH);
+    if (status != HAL_OK) {
+        DebugPrint("Failed to reset MS5525DSO. HAL Status: %02x", status);
+        return RESULT_FAIL;
+    }
 }

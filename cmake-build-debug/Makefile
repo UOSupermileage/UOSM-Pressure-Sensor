@@ -425,30 +425,6 @@ Core/Tasks/TaskManager.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UOSM-pressure-sensor.elf.dir/build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Tasks/TaskManager.c.s
 .PHONY : Core/Tasks/TaskManager.c.s
 
-Core/UserDrivers/I2CDriver.obj: Core/UserDrivers/I2CDriver.c.obj
-.PHONY : Core/UserDrivers/I2CDriver.obj
-
-# target to build an object file
-Core/UserDrivers/I2CDriver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UOSM-pressure-sensor.elf.dir/build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/I2CDriver.c.obj
-.PHONY : Core/UserDrivers/I2CDriver.c.obj
-
-Core/UserDrivers/I2CDriver.i: Core/UserDrivers/I2CDriver.c.i
-.PHONY : Core/UserDrivers/I2CDriver.i
-
-# target to preprocess a source file
-Core/UserDrivers/I2CDriver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UOSM-pressure-sensor.elf.dir/build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/I2CDriver.c.i
-.PHONY : Core/UserDrivers/I2CDriver.c.i
-
-Core/UserDrivers/I2CDriver.s: Core/UserDrivers/I2CDriver.c.s
-.PHONY : Core/UserDrivers/I2CDriver.s
-
-# target to generate assembly for a file
-Core/UserDrivers/I2CDriver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UOSM-pressure-sensor.elf.dir/build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/I2CDriver.c.s
-.PHONY : Core/UserDrivers/I2CDriver.c.s
-
 Core/UserDrivers/MS5525DSO.obj: Core/UserDrivers/MS5525DSO.c.obj
 .PHONY : Core/UserDrivers/MS5525DSO.obj
 
@@ -496,30 +472,6 @@ Core/UserDrivers/PressureDriver.s: Core/UserDrivers/PressureDriver.c.s
 Core/UserDrivers/PressureDriver.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UOSM-pressure-sensor.elf.dir/build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/PressureDriver.c.s
 .PHONY : Core/UserDrivers/PressureDriver.c.s
-
-Core/UserDrivers/SensorDriver.obj: Core/UserDrivers/SensorDriver.c.obj
-.PHONY : Core/UserDrivers/SensorDriver.obj
-
-# target to build an object file
-Core/UserDrivers/SensorDriver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UOSM-pressure-sensor.elf.dir/build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/SensorDriver.c.obj
-.PHONY : Core/UserDrivers/SensorDriver.c.obj
-
-Core/UserDrivers/SensorDriver.i: Core/UserDrivers/SensorDriver.c.i
-.PHONY : Core/UserDrivers/SensorDriver.i
-
-# target to preprocess a source file
-Core/UserDrivers/SensorDriver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UOSM-pressure-sensor.elf.dir/build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/SensorDriver.c.i
-.PHONY : Core/UserDrivers/SensorDriver.c.i
-
-Core/UserDrivers/SensorDriver.s: Core/UserDrivers/SensorDriver.c.s
-.PHONY : Core/UserDrivers/SensorDriver.s
-
-# target to generate assembly for a file
-Core/UserDrivers/SensorDriver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UOSM-pressure-sensor.elf.dir/build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/UserDrivers/SensorDriver.c.s
-.PHONY : Core/UserDrivers/SensorDriver.c.s
 
 Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.obj: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
 .PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.obj
@@ -1455,18 +1407,12 @@ help:
 	@echo "... Core/Tasks/TaskManager.obj"
 	@echo "... Core/Tasks/TaskManager.i"
 	@echo "... Core/Tasks/TaskManager.s"
-	@echo "... Core/UserDrivers/I2CDriver.obj"
-	@echo "... Core/UserDrivers/I2CDriver.i"
-	@echo "... Core/UserDrivers/I2CDriver.s"
 	@echo "... Core/UserDrivers/MS5525DSO.obj"
 	@echo "... Core/UserDrivers/MS5525DSO.i"
 	@echo "... Core/UserDrivers/MS5525DSO.s"
 	@echo "... Core/UserDrivers/PressureDriver.obj"
 	@echo "... Core/UserDrivers/PressureDriver.i"
 	@echo "... Core/UserDrivers/PressureDriver.s"
-	@echo "... Core/UserDrivers/SensorDriver.obj"
-	@echo "... Core/UserDrivers/SensorDriver.i"
-	@echo "... Core/UserDrivers/SensorDriver.s"
 	@echo "... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.obj"
 	@echo "... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.i"
 	@echo "... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.s"

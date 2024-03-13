@@ -183,12 +183,6 @@
 		<Unit filename="/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/Core/Tasks/TaskManager.h">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/Core/UserDrivers/I2CDriver.c">
-			<Option target="UOSM-pressure-sensor.elf"/>
-		</Unit>
-		<Unit filename="/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/Core/UserDrivers/I2CDriver.h">
-			<Option target="UOSM-pressure-sensor.elf"/>
-		</Unit>
 		<Unit filename="/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/Core/UserDrivers/MS5525DSO.c">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
@@ -199,12 +193,6 @@
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
 		<Unit filename="/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/Core/UserDrivers/PressureDriver.h">
-			<Option target="UOSM-pressure-sensor.elf"/>
-		</Unit>
-		<Unit filename="/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/Core/UserDrivers/SensorDriver.c">
-			<Option target="UOSM-pressure-sensor.elf"/>
-		</Unit>
-		<Unit filename="/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/Core/UserDrivers/SensorDriver.h">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
 		<Unit filename="/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l432xx.h">

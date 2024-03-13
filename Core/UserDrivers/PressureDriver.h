@@ -1,18 +1,16 @@
 //
-// Created by trist on 2024-01-22.
+// Created by Jeremy Cote on 2024-03-10.
 //
 
-#ifndef ADCDRIVER_H
-#define ADCDRIVER_H
+#ifndef PROJECT_PRESSURE_DRIVER_H
+#define PROJECT_PRESSURE_DRIVER_H
 
 #include "ApplicationTypes.h"
-#include "cmsis_os.h"
-#include "stm32l4xx_hal.h"
 
-PUBLIC void InitPressure(void);
-PUBLIC pressure_raw_t GetPressure(void);
-PUBLIC temperature_raw_t GetTemperature(void);
+PUBLIC result_t PressureInit();
+PUBLIC result_t PressureUpdate();
 
-PUBLIC void PressureCallback(void);
+PUBLIC int32_t GetPressure();
+PUBLIC int32_t GetTemperature();
 
-#endif //ADCDRIVER_H
+#endif //PROJECT_PRESSURE_DRIVER_H

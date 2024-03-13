@@ -7,14 +7,14 @@
 // STM headers
 #include <ApplicationTypes.h>
 
-#include "MS5525DSO.h"
+#include "PressureDriver.h"
 
 osThreadId_t SensorCommsTaskHandle;
 
 const osThreadAttr_t SensorCommsTask_attributes = {
         .name = "SensorCommsTask",
-        .priority = (osPriority_t) osPriorityNormal,
-        .stack_size = 128 * 4
+        .priority = (osPriority_t) osPriorityHigh,
+        .stack_size = 1024 * 8
 };
 
 void InitSensorCommsTask(void) {
@@ -23,16 +23,22 @@ void InitSensorCommsTask(void) {
 
 void SensorCommsTask(void *argument) {
     DebugPrint("Starting SensorCommsTask");
-    MS5525DSOInit();
 
-    DebugPrint("Starting sensor task");
-
-    int32_t pressure;
-    int32_t temperature;
+    result_t isInitialized = RESULT_FAIL;
 
     while (1) {
-        MS5525DSORead(&pressure, &temperature);
-        DebugPrint("Pressure: %d, Temperature: %d", pressure, temperature);
+        if (!isInitialized) {
+            isInitialized = PressureInit();
+
+            if (!isInitialized) {
+                DebugPrint("Failed to initialized. Waiting...");
+                osDelay(100);
+                continue;
+            }
+        }
+
+        PressureUpdate();
+        DebugPrint("Pressure: %d, Temperature: %d", GetPressure(), GetTemperature());
         osDelay(100);
     }
 }

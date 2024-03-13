@@ -89,6 +89,8 @@ PUBLIC result_t MS5525DSORead(int32_t * pressure, int32_t * temperature) {
     if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6) != GPIO_PIN_SET) {
         DebugPrint("Aborting due to SCL not being high.");
 
+        // Try and unfreeze the I2C hardware by cycling the pins.
+
         HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_RESET);
         asm("nop");
         HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_SET);

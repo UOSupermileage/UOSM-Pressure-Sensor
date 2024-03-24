@@ -21,3 +21,4 @@ void MotorRPMDataCallback(iCommsMessage_t *msg) { DebugPrint("MotorRPMDataCallba
 void CurrentVoltageDataCallback(iCommsMessage_t *msg) { DebugPrint("CurrentVoltageDataCallback not implemented! %d", msg->standardMessageID); }
 void PressureDataCallback(iCommsMessage_t *msg) { DebugPrint("PressureDataCallback not implemented! %d", msg->standardMessageID); }
 void TemperatureDataCallback(iCommsMessage_t *msg) { DebugPrint("TemperatureDataCallback not implemented! %d", msg->standardMessageID); }
+void LightsDataCallback(iCommsMessage_t *msg) { DebugPrint("TemperatureDataCallback not implemented! %d", msg->standardMessageID); }

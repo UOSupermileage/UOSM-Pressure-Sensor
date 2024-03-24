@@ -1,3 +1,5 @@
 .pio
 .idea
+.vs-code
 cmake-build-debug
+cmake-build-release

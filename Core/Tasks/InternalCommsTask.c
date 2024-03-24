@@ -10,7 +10,7 @@
 
 #define STACK_SIZE 128*4
 #define INTERNAL_COMMS_TASK_PRIORITY (osPriority_t) osPriorityRealtime
-#define TIMER_INTERNAL_COMMS_TASK 200UL
+#define TIMER_INTERNAL_COMMS_TASK 2000UL
 
 #define PRESURE_RATE 4
 #define TEMPERATURE_RATE 4
@@ -52,8 +52,8 @@ PRIVATE void InternalCommsTask(void *argument)
         if (presureTxCounter == PRESURE_RATE) {
             DebugPrint("%s Sending Presure!", ICT_TAG);
             iCommsMessage_t presureTxMsg = IComms_CreateUint32BitMessage(presureInfo->messageID, GetPressure());
-            result_t r = IComms_Transmit(&presureTxMsg);
-            DebugPrint("%s Sending presure! [Result = %d]", ICT_TAG, r);
+//            result_t r = IComms_Transmit(&presureTxMsg);
+//            DebugPrint("%s Sending presure! [Result = %d]", ICT_TAG, r);
             presureTxCounter = 0;
         }
 

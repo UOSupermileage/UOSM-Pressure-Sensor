@@ -12,8 +12,7 @@
 #define INTERNAL_COMMS_TASK_PRIORITY (osPriority_t) osPriorityRealtime
 #define TIMER_INTERNAL_COMMS_TASK 2000UL
 
-#define PRESURE_RATE 4
-#define TEMPERATURE_RATE 4
+#define PRESSURE_TEMPERATURE_RATE 4
 
 const char ICT_TAG[] = "#ICT:";
 
@@ -37,10 +36,8 @@ PRIVATE void InternalCommsTask(void *argument)
     uint32_t cycleTick = osKernelGetTickCount();
     DebugPrint("icomms");
 
-    const ICommsMessageInfo* presureInfo = CANMessageLookUpGetInfo(PRESSURE_DATA_ID);
-    const ICommsMessageInfo* temperatureInfo = CANMessageLookUpGetInfo(TEMPERATURE_DATA_ID);
-    uint8_t presureTxCounter = 0;
-    uint8_t temperatureTxCounter = 0;
+    const ICommsMessageInfo* pressureTemperatureInfo = CANMessageLookUpGetInfo(PRESSURE_TEMPERATURE_DATA_ID);
+    uint8_t pressureTemperatureTxCounter = 0;
 
     IComms_Init();
     for(;;)
@@ -48,22 +45,12 @@ PRIVATE void InternalCommsTask(void *argument)
         cycleTick += TIMER_INTERNAL_COMMS_TASK;
         osDelayUntil(cycleTick);
 
-        presureTxCounter++;
-        if (presureTxCounter == PRESURE_RATE) {
-            DebugPrint("%s Sending Presure!", ICT_TAG);
-            iCommsMessage_t presureTxMsg = IComms_CreateUint32BitMessage(presureInfo->messageID, GetPressure());
-//            result_t r = IComms_Transmit(&presureTxMsg);
-//            DebugPrint("%s Sending presure! [Result = %d]", ICT_TAG, r);
-            presureTxCounter = 0;
-        }
-
-        temperatureTxCounter++;
-        if (temperatureTxCounter == TEMPERATURE_RATE) {
-            DebugPrint("%s Sending Temperature!", ICT_TAG);
-            iCommsMessage_t temperatureTxMsg = IComms_CreateUint32BitMessage(temperatureInfo->messageID, GetTemperature());
-            result_t r = IComms_Transmit(&temperatureTxMsg);
-            DebugPrint("%s Sending temperature! [Result = %d]", ICT_TAG, r);
-            temperatureTxCounter = 0;
+        pressureTemperatureTxCounter++;
+        if (pressureTemperatureTxCounter == PRESSURE_TEMPERATURE_RATE) {
+            iCommsMessage_t presureTxMsg = IComms_CreatePairInt32Message(pressureTemperatureInfo->messageID, GetPressure(), GetTemperature());
+            result_t r = IComms_Transmit(&presureTxMsg);
+            DebugPrint("Sending p/t! [Result = %d]", r);
+            pressureTemperatureTxCounter = 0;
         }
 
         IComms_PeriodicReceive();

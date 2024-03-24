@@ -129,30 +129,6 @@ UOSM-pressure-sensor.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UOSM-pressure-sensor.elf.dir/build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/build
 .PHONY : UOSM-pressure-sensor.elf/fast
 
-Core/Src/CANCallback.obj: Core/Src/CANCallback.c.obj
-.PHONY : Core/Src/CANCallback.obj
-
-# target to build an object file
-Core/Src/CANCallback.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UOSM-pressure-sensor.elf.dir/build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/CANCallback.c.obj
-.PHONY : Core/Src/CANCallback.c.obj
-
-Core/Src/CANCallback.i: Core/Src/CANCallback.c.i
-.PHONY : Core/Src/CANCallback.i
-
-# target to preprocess a source file
-Core/Src/CANCallback.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UOSM-pressure-sensor.elf.dir/build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/CANCallback.c.i
-.PHONY : Core/Src/CANCallback.c.i
-
-Core/Src/CANCallback.s: Core/Src/CANCallback.c.s
-.PHONY : Core/Src/CANCallback.s
-
-# target to generate assembly for a file
-Core/Src/CANCallback.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UOSM-pressure-sensor.elf.dir/build.make CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/CANCallback.c.s
-.PHONY : Core/Src/CANCallback.c.s
-
 Core/Src/freertos.obj: Core/Src/freertos.c.obj
 .PHONY : Core/Src/freertos.obj
 
@@ -1370,9 +1346,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... UOSM-pressure-sensor.elf"
-	@echo "... Core/Src/CANCallback.obj"
-	@echo "... Core/Src/CANCallback.i"
-	@echo "... Core/Src/CANCallback.s"
 	@echo "... Core/Src/freertos.obj"
 	@echo "... Core/Src/freertos.i"
 	@echo "... Core/Src/freertos.s"

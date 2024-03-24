@@ -10,7 +10,7 @@
 PUBLIC result_t PressureInit();
 PUBLIC result_t PressureUpdate();
 
-PUBLIC int32_t GetPressure();
-PUBLIC int32_t GetTemperature();
+PUBLIC pressure_t GetPressure();
+PUBLIC temperature_t GetTemperature();
 
 #endif //PROJECT_PRESSURE_DRIVER_H

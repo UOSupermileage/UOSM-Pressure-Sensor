@@ -15,9 +15,9 @@ result_t PressureUpdate() {
     return MS5525DSORead(&pressure, &temperature);
 }
 
-int32_t GetPressure() {
+pressure_t GetPressure() {
     return pressure;
 }
-int32_t GetTemperature() {
+temperature_t GetTemperature() {
     return temperature;
 }

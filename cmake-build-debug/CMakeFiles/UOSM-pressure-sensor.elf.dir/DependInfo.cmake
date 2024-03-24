@@ -42,7 +42,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/Core/Src/CANCallback.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/CANCallback.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/CANCallback.c.obj.d"
   "/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/Core/Src/freertos.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/freertos.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/freertos.c.obj.d"
   "/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/Core/Src/main.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/main.c.obj.d"
   "/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/Core/Src/stm32l4xx_hal_msp.c" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj" "gcc" "CMakeFiles/UOSM-pressure-sensor.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj.d"

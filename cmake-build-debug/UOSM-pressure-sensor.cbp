@@ -135,9 +135,6 @@
 		<Unit filename="/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/Core/Inc/stm32l4xx_it.h">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/Core/Src/CANCallback.c">
-			<Option target="UOSM-pressure-sensor.elf"/>
-		</Unit>
 		<Unit filename="/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/Core/Src/freertos.c">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
@@ -612,9 +609,6 @@
 		<Unit filename="/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/UOSM-Core/Utils/CANLogEntry.hpp">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/UOSM-Core/Utils/DataQueue.hpp">
-			<Option target="UOSM-pressure-sensor.elf"/>
-		</Unit>
 		<Unit filename="/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/UOSM-Core/Utils/Identifiable.cpp">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
@@ -622,12 +616,6 @@
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
 		<Unit filename="/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/UOSM-Core/Utils/Observable.hpp">
-			<Option target="UOSM-pressure-sensor.elf"/>
-		</Unit>
-		<Unit filename="/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/UOSM-Core/Utils/ObservedDataQueue.hpp">
-			<Option target="UOSM-pressure-sensor.elf"/>
-		</Unit>
-		<Unit filename="/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/UOSM-Core/Utils/ObservedObject.hpp">
 			<Option target="UOSM-pressure-sensor.elf"/>
 		</Unit>
 		<Unit filename="/Users/jeremy/Projects/Supermileage/UOSM-Pressure-Sensor/UOSM-Core/library.json">

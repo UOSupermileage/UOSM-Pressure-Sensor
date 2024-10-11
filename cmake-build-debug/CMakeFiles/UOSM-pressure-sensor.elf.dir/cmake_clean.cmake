@@ -101,6 +101,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Utils/Identifiable.cpp.obj"
   "CMakeFiles/UOSM-pressure-sensor.elf.dir/UOSM-Core/Utils/Identifiable.cpp.obj.d"
   "UOSM-pressure-sensor.elf"
+  "UOSM-pressure-sensor.elf.manifest"
   "UOSM-pressure-sensor.elf.pdb"
 )
 

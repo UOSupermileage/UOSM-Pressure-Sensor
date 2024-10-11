@@ -126,13 +126,16 @@ PUBLIC result_t MS5525DSORead(int32_t * pressure, int32_t * temperature) {
     // Calculate Temperature TODO: This conversion is wacky
     // raw_temperature is maximum 24 bits, reinterpretation as signed should not lose accuracy
     int32_t deltaTemperature = ((int32_t)raw_temperature - T_REF * POW(Q5));
-    *temperature = 2000 + deltaTemperature * T_SENS / POW(Q6);
+    // Convert from integer to float
+    float real_temp = 0;
+
+    *temperature = (2000 + deltaTemperature * T_SENS / POW(Q6));
 
     // Calculate Temperature Compensated Pressure
     int64_t offset = P_OFF * POW(Q2) + (TC_OFF * deltaTemperature) / POW(Q4);
     int64_t sensitivity = P_SENS * POW(Q1) + (TC_SENS * deltaTemperature) / POW(Q3);
 
-    *pressure = (raw_pressure * sensitivity / POW(21) - offset) / POW(15);
+    *pressure = ((raw_pressure * sensitivity / POW(21)) - offset) / POW(15);
 
     return RESULT_FAIL;
 }
